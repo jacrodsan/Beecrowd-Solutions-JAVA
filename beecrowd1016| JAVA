@@ -1,0 +1,14 @@
+package exercicios;
+import java.util.Scanner;
+public class beecrowd1016 {
+
+	public static void main(String[] args) {
+	Scanner teclado = new Scanner(System.in);
+	
+		double distanciax = teclado.nextDouble();
+        double calculo;
+        calculo = (distanciax/30)*60;
+       
+        System.out.println(calculo + " minutos");
+	}
+}
